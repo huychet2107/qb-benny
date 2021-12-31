@@ -12,7 +12,7 @@ end)
 
 RegisterNetEvent("qb-benny:client:repair", function()
     SendNUIMessage({sound = "wrench", volume = 1.0})
-    QBCore.Functions.Progressbar("repair_car", "Repairing Vehicle...", 3000, false, true, {
+    QBCore.Functions.Progressbar("repair_car", "Repairing Vehicle...", 10000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
